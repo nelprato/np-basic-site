@@ -194,8 +194,27 @@
         grid-template-columns: 1fr;
         justify-items: center;
       }
+
       .label-card{
-        max-width: 520px;
+        width: min(520px, 92vw);
+        aspect-ratio: 1 / 1;
+        max-width: none;
+      }
+
+      .label-shape{
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+
+      .label-content{
+        width: 82%;
+        padding-bottom: 18px;
+      }
+
+      .label-desc{
+        max-width: 26ch;
+        margin: 0 auto;
       }
     }
 
