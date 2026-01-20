@@ -251,6 +251,24 @@
         padding-bottom: 18px;
       }
     }
+    .divider{
+      position: relative;
+    }
+
+    .divider-label{
+      position: absolute;
+      left: 50%;
+      top: 32%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      font-family: "CaslonAntique";
+      font-size: clamp(24px, 2.1vw, 48px);
+      letter-spacing: 0.06em;
+      text-align: center;
+      pointer-events: none;
+      text-shadow: 0 10px 24px rgba(0,0,0,0.45);
+    }
+
 
 
 
